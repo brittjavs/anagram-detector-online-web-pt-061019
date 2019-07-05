@@ -8,8 +8,9 @@ def initialize(word)
 end
 
 def match(words_array)
- words_array.select { |compare|
-   compare.split(" ").sort == self.split(" ").sort}
+ comaprison = words_array.each do |string|
+   string.split(" ").sort
+end
 end
 
 end
