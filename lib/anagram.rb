@@ -11,6 +11,7 @@ def match(words_array)
  words_array.select do |string|
    string.split(" ").sort == @word.split(" ").sort
 end
+binding.pry
 end
 
 end
