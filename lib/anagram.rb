@@ -8,7 +8,7 @@ def initialize(word)
 end
 
 def match(words_array)
- comparison_word = words_array.select do |string|
+ words_array.select do |string|
    string.split(" ").sort == @word.split(" ").sort
 end
 end
