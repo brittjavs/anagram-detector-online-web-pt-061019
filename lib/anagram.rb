@@ -13,5 +13,6 @@ words_array.collect do |string|
    string
 end
 end
+end
 
 end
