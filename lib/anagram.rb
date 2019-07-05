@@ -8,8 +8,11 @@ def initialize(word)
 end
 
 def match(words_array)
+ matches_array = []
  comparison = words_array.each do |string|
    string.split(" ").sort
+   if comparison == word.split(" ").sort
+     matches_array << comparison
 end
 binding.pry
 end
