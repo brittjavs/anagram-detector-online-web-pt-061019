@@ -12,5 +12,6 @@ def match(words_array)
    if string.split(" ").sort == @word.split(" ").sort
 end
 end
+end
 
 end
