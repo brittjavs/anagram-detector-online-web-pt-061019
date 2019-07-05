@@ -13,7 +13,6 @@ def match(words_array)
    string.split(" ").sort == word.split(" ").sort
      matches_array << comparison
 end
-end
 matches_array
 end
 
