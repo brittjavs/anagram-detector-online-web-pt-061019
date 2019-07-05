@@ -8,7 +8,7 @@ def initialize(word)
 end
 
 def match(words_array)
- comaprison = words_array.each do |string|
+ comparison = words_array.each do |string|
    string.split(" ").sort
 end
 binding.pry
