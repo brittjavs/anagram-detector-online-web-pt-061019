@@ -8,8 +8,8 @@ def initialize(word)
 end
 
 def match(words_array)
- words_array.select { |string|
-   string.split(" ").sort == @word.split(" ").sort}
+ words_array.select { |compare|
+   compare.split(" ").sort == @word.split(" ").sort}
 end
 binding.pry
 end
