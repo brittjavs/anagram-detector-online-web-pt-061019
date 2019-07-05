@@ -13,6 +13,5 @@ def match(words_array)
   word.split(" ").sort
 end
 end
-end
 
 end
