@@ -14,7 +14,7 @@ def match(words_array)
    if comparison == word.split(" ").sort
      matches_array << comparison
 end
-binding.pry
+end
 end
 
 end
